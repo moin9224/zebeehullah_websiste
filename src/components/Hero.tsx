@@ -86,8 +86,8 @@ export default function Hero({ onOpenSearch }: HeroProps) {
             {/* Report Preview Card — White (#ffffff) surface, 8px radius, no shadow. Header label in Phonic 12px / 400 Fossil */}
             <div className="bg-paper border border-ash rounded-inputs p-5 shadow-maze-subtle">
               <div className="flex items-center justify-between text-[12px] font-serif text-fossil mb-3 border-b border-sand pb-2">
-                <span>Report Preview / Dar ul Ifta Research</span>
-                <span className="font-mono text-ink text-[11px]">VOL. XXIV — 2026</span>
+                <span>Official Decree / دار الافتاء ڈہرکی</span>
+                <span className="font-mono text-ink text-[11px] font-medium text-emerald">RESEARCH & IFTA</span>
               </div>
 
               {/* Royal Emerald & Gold hero image block */}

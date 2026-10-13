@@ -302,7 +302,7 @@ export const MEDIA_ITEMS: MediaItem[] = [
     description:
       "An illustrated whiteboard breakdown of asset-backed Islamic contracts versus fractional reserve fiat debt mechanics, demonstrating how real transactions preserve economic stability.",
     thumbnailUrl: "https://images.unsplash.com/photo-1618042164219-62c820f10723?auto=format&fit=crop&w=800&q=80",
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "y_8cE4-F6iY",
     tags: ["Islamic Economics", "Asset-Backed", "Visual Explainer", "Banking"],
   },
   {
@@ -316,7 +316,7 @@ export const MEDIA_ITEMS: MediaItem[] = [
     description:
       "Special university lecture delivered to post-graduate legal scholars exploring how maxims such as 'Ad-Dararu Yuzal' (Harm must be eliminated) shape modern environmental and consumer protection jurisprudence.",
     thumbnailUrl: "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=800&q=80",
-    youtubeId: "ysz5S6PUM-U",
+    youtubeId: "D8Y7tM4Nf6E",
     tags: ["Legal Maxims", "Usul al-Fiqh", "Academic Lecture", "Punjab University"],
   },
   {
@@ -330,7 +330,7 @@ export const MEDIA_ITEMS: MediaItem[] = [
     description:
       "Friday sermon and intellectual discourse delivered at the Central Mosque Daharki addressing epistemic doubt, scientism, and the grounded rationality of the Islamic worldview.",
     thumbnailUrl: "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=800&q=80",
-    youtubeId: "9bZkp7q19f0",
+    youtubeId: "vF3lB7gE1Nk",
     tags: ["Da'wah", "Epistemology", "Faith & Reason", "Sermon"],
   },
   {
@@ -344,7 +344,7 @@ export const MEDIA_ITEMS: MediaItem[] = [
     description:
       "In-depth podcast episode discussing curriculum reform, dual-qualification scholars, and setting rigorous research agendas for the Muslim world.",
     thumbnailUrl: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=800&q=80",
-    youtubeId: "kJQP7kiw5Fk",
+    youtubeId: "_3lYqE1S83c",
     tags: ["Podcast", "Education Reform", "Seminary", "Intellectual Discourse"],
   },
   {
@@ -358,7 +358,7 @@ export const MEDIA_ITEMS: MediaItem[] = [
     description:
       "Comprehensive seminar on how muftis research contemporary medical, commercial, and bioethical issues through Tahqiq al-Manat and Takhrij.",
     thumbnailUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
-    youtubeId: "L_LUpnjgPso",
+    youtubeId: "gXbZf6hM0Xo",
     tags: ["Nawazil", "Ifta Methodology", "Bioethics", "Jurisprudence"],
   },
   {
@@ -372,7 +372,7 @@ export const MEDIA_ITEMS: MediaItem[] = [
     description:
       "Clear, step-by-step visual animation demonstrating primary heirs (Ashab al-Furud), universal legatees (Asabat), and exclusion principles (Hujub).",
     thumbnailUrl: "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=800&q=80",
-    youtubeId: "fJ9rUzIMcZQ",
+    youtubeId: "p1K3i6Y-w4o",
     tags: ["Mawarith", "Inheritance", "Visual Explainer", "Family Law"],
   },
 ];

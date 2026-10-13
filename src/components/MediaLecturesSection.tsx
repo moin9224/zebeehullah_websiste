@@ -298,9 +298,20 @@ export default function MediaLecturesSection() {
               <p className="font-serif text-[14px] text-smoke leading-relaxed">
                 {selectedVideo.description}
               </p>
-              <div className="pt-2 text-[12px] font-mono text-fossil border-t border-sand flex items-center justify-between">
-                <span>Duration: {selectedVideo.duration}</span>
-                <span>Date: {selectedVideo.date}</span>
+              <div className="pt-3 text-[12px] font-mono text-fossil border-t border-sand flex flex-wrap items-center justify-between gap-3">
+                <div className="flex items-center gap-4">
+                  <span>Duration: {selectedVideo.duration}</span>
+                  <span>Date: {selectedVideo.date}</span>
+                </div>
+                <a
+                  href={`https://www.youtube.com/results?search_query=Mufti+Zabeehullah+Leghari+${encodeURIComponent(selectedVideo.title)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-ink text-[12px] py-1.5 px-3 inline-flex items-center gap-1.5"
+                >
+                  <span>Watch on YouTube</span>
+                  <span className="text-xs">↗</span>
+                </a>
               </div>
             </div>
           </div>

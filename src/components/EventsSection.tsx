@@ -84,8 +84,8 @@ export default function EventsSection() {
                         Registration Live
                       </span>
                       <span className="px-2.5 py-0.5 rounded-[4px] bg-paper text-fossil text-[12px] font-mono border border-ash flex items-center gap-1.5">
-                        <Ticket className="w-3.5 h-3.5 text-olive" />
-                        <span>32 / 50 Seats Reserved</span>
+                        <Building className="w-3.5 h-3.5 text-emerald" />
+                        <span>In-Person &amp; Hybrid</span>
                       </span>
                       <span className="text-[12px] font-mono text-fossil">
                         {event.type}

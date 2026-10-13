@@ -77,24 +77,24 @@ export default function ContactSection() {
           </p>
         </div>
 
-        {/* ACADEMIC NEWSLETTER CALLOUT BANNER — Lavender wash / Ink Surface (#1c1c1c) */}
-        <div className="bg-ink text-paper rounded-largecards p-8 sm:p-12 mb-14 border border-charcoal relative overflow-hidden">
+        {/* ACADEMIC NEWSLETTER CALLOUT BANNER — Royal Emerald & Gold */}
+        <div className="bg-gradient-to-br from-[#0F382A] to-[#07120E] text-white rounded-largecards p-8 sm:p-12 mb-14 border border-gold/30 shadow-md relative overflow-hidden">
           <div className="max-w-2xl mx-auto text-center space-y-4 relative z-10">
-            <div className="w-10 h-10 rounded-inputs bg-sand/20 flex items-center justify-center mx-auto text-chartreuse">
-              <Mail className="w-5 h-5" />
+            <div className="w-10 h-10 rounded-inputs bg-gold/20 border border-gold/40 flex items-center justify-center mx-auto text-gold-light">
+              <Mail className="w-5 h-5 text-gold" />
             </div>
 
-            <h3 className="font-serif text-[26px] sm:text-[32px] font-light text-paper tracking-[-1px]">
+            <h3 className="font-serif text-[26px] sm:text-[32px] font-light text-white tracking-[-1px]">
               Subscribe to the Academic Dispatch
             </h3>
 
-            <p className="font-serif text-[15px] text-ash max-w-lg mx-auto font-light leading-relaxed">
+            <p className="font-serif text-[15px] text-[#A2ADA7] max-w-lg mx-auto font-light leading-relaxed">
               Receive newly released research papers, book reviews, quarterly Fatawa digests, and scholarly reflections directly in your inbox.
             </p>
 
             {newsletterSuccess ? (
-              <div className="p-3.5 rounded-inputs bg-sand/20 border border-chartreuse/40 text-chartreuse text-[13px] font-serif flex items-center justify-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-chartreuse" />
+              <div className="p-3.5 rounded-inputs bg-gold/15 border border-gold/40 text-gold-light text-[13px] font-serif flex items-center justify-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-gold" />
                 <span>Subscription confirmed! Thank you for joining our scholarly community.</span>
               </div>
             ) : (
@@ -105,11 +105,11 @@ export default function ContactSection() {
                   placeholder="Enter your academic email..."
                   value={newsletterEmail}
                   onChange={(e) => setNewsletterEmail(e.target.value)}
-                  className="flex-1 px-4 py-3 rounded-inputs bg-paper/10 border border-ash/30 text-paper placeholder-ash/60 text-[14px] font-serif focus:outline-none focus:border-chartreuse transition-colors"
+                  className="flex-1 px-4 py-3 rounded-inputs bg-black/30 border border-gold/30 text-white placeholder-[#A2ADA7] text-[14px] font-serif focus:outline-none focus:border-gold transition-colors"
                 />
                 <button
                   type="submit"
-                  className="btn-ink bg-chartreuse text-ink hover:opacity-90 px-5 text-[14px]"
+                  className="bg-gold text-[#07120E] font-medium hover:bg-gold-light transition-colors px-5 py-3 rounded-inputs text-[14px] font-serif flex items-center justify-center gap-1.5"
                 >
                   <span>Subscribe</span>
                   <ArrowRight className="w-3.5 h-3.5" />
@@ -117,7 +117,7 @@ export default function ContactSection() {
               </form>
             )}
             
-            <p className="text-[12px] font-mono text-ash/60">
+            <p className="text-[12px] font-mono text-[#A2ADA7]/80">
               No spam. Delivered monthly. Unsubscribe anytime.
             </p>
           </div>
