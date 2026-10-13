@@ -112,7 +112,7 @@ export default function FAQPage() {
   };
 
   return (
-    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-chartreuse selection:text-ink">
+    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-gold selection:text-white">
       <Navbar onOpenSearch={() => setIsSearchOpen(true)} />
 
       {/* Hero Header — Warm Bone Canvas */}
@@ -257,7 +257,7 @@ export default function FAQPage() {
                             <span>Authoritative Juristic Advisory</span>
                             <Link 
                               href="/contact" 
-                              className="text-olive hover:underline font-medium inline-flex items-center gap-1"
+                              className="text-emerald hover:text-emerald-light hover:underline font-medium inline-flex items-center gap-1 transition-colors"
                             >
                               <span>Have a specific follow-up?</span>
                               <span>→</span>
@@ -275,10 +275,10 @@ export default function FAQPage() {
         </div>
       </section>
 
-      {/* Still Have Questions CTA — Soft Lavender Wash */}
-      <section className="py-16 bg-[#f3effb] border-b border-[#dfd5f2]">
+      {/* Still Have Questions CTA — Soft Sage Wash */}
+      <section className="py-16 bg-[#EBF4F0] border-b border-[#D2E2DA]">
         <div className="max-w-page mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-          <span className="badge-tag bg-white text-ink border border-[#dfd5f2]">
+          <span className="badge-tag bg-white text-ink border border-[#D2E2DA]">
             DAR UL IFTA DAHARKI
           </span>
           <h2 className="font-serif text-[30px] sm:text-[38px] font-light text-ink tracking-[-1.5px]">

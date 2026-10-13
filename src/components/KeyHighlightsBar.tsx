@@ -89,10 +89,10 @@ export default function KeyHighlightsBar() {
   ];
 
   return (
-    <section className="relative z-20 py-10 bg-white border-b border-ash">
+    <section className="relative z-20 py-10 bg-[#0F382A] border-y border-gold/40 shadow-sm">
       <div className="max-w-page mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Four Cards Grid — Elevated off-white cards on pure white canvas */}
+        {/* Four Cards Grid — Elevated Royal Emerald Cards with Antique Gold Trims */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {highlights.map((item, index) => {
             const Icon = item.icon;
@@ -100,29 +100,29 @@ export default function KeyHighlightsBar() {
               <div
                 key={index}
                 onClick={() => setSelectedHighlight(item)}
-                className="bg-[#fbfaf8] border border-ash/80 rounded-cards p-5 cursor-pointer hover:border-ink hover:bg-white hover:shadow-maze-subtle transition-all flex flex-col justify-between group"
+                className="bg-[#07120E]/85 border border-gold/30 rounded-cards p-5 cursor-pointer hover:border-gold hover:bg-[#07120E] hover:shadow-lg transition-all flex flex-col justify-between group"
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
-                    <span className="badge-tag">
+                    <span className="inline-flex items-center gap-1 bg-gold/15 text-gold-light border border-gold/30 font-serif text-[11.5px] px-2.5 py-0.5 rounded-[4px] font-medium">
                       {item.badge}
                     </span>
-                    <Icon className="w-4 h-4 text-fossil group-hover:text-ink transition-colors" />
+                    <Icon className="w-4 h-4 text-gold-light group-hover:text-gold transition-colors" />
                   </div>
 
                   <div>
-                    <h3 className="font-serif text-[17px] font-normal text-ink leading-[1.3] tracking-[-0.34px]">
+                    <h3 className="font-serif text-[17px] font-normal text-white group-hover:text-gold-light leading-[1.3] tracking-[-0.34px] transition-colors">
                       {item.role}
                     </h3>
-                    <p className="font-urdu text-[13px] text-fossil mt-1 leading-normal">
+                    <p className="font-urdu text-[13px] text-gold-light/85 mt-1 leading-normal">
                       {item.roleUrdu}
                     </p>
                   </div>
                 </div>
 
-                <div className="pt-3 mt-3 border-t border-sand flex items-center justify-between text-[12px] font-serif text-fossil">
+                <div className="pt-3 mt-3 border-t border-[#164E3D] flex items-center justify-between text-[12px] font-serif text-[#A2ADA7]">
                   <span>{item.category}</span>
-                  <span className="text-ink text-xs font-mono group-hover:translate-x-0.5 transition-transform">→</span>
+                  <span className="text-gold text-xs font-mono group-hover:translate-x-1 transition-transform">→</span>
                 </div>
               </div>
             );

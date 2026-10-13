@@ -5,19 +5,25 @@
 @tailwind utilities;
 
 :root {
-  /* Colors */
-  --color-bone: #f5f4f0;
-  --color-paper: #ffffff;
-  --color-ink: #1c1c1c;
-  --color-charcoal: #000000;
-  --color-fossil: #706f6c;
-  --color-pebble: #9e9b94;
-  --color-smoke: #3c3c3c;
-  --color-sand: #eae6e1;
-  --color-ash: #d2cec6;
-  --color-chartreuse: #dbf570;
-  --color-olive: #4b5b0a;
-  --color-lavender: #b8a3ff;
+  /* Royal Islamic Emerald & Antique Gold Palette */
+  --color-bone: #FAF8F5;          /* Warm Ivory */
+  --color-paper: #ffffff;         /* Pure White */
+  --color-ink: #121E19;           /* Deep Scholar Obsidian */
+  --color-charcoal: #07120E;      /* Midnight Charcoal */
+  --color-fossil: #5F6B65;        /* Muted Sage Slate */
+  --color-pebble: #8A948E;        /* Pebble Gray */
+  --color-smoke: #2D3B34;         /* Forest Slate */
+  --color-sand: #EFECE4;          /* Warm Parchment */
+  --color-ash: #D8D2C4;           /* Antique Border Hairline */
+  --color-emerald: #0F382A;       /* Royal Islamic Emerald */
+  --color-emerald-light: #164E3D; /* Forest Light */
+  --color-emerald-soft: #EBF4F0;  /* Mint/Sage Mist */
+  --color-gold: #C5A869;          /* Antique Champagne Gold */
+  --color-gold-light: #DFCCA0;    /* Light Gold Accent */
+  --color-gold-subtle: #F7F3E8;   /* Warm Gold Tint */
+  --color-chartreuse: #C5A869;    /* Mapped to Gold */
+  --color-olive: #0F382A;         /* Emerald */
+  --color-lavender: #EBF4F0;      /* Soft Sage Tint */
 
   /* Typography */
   --font-phonic: 'Newsreader', Georgia, serif;
@@ -72,26 +78,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Filled Dark Button — Primary action */
+/* Filled Dark/Emerald Button — Primary action */
 .btn-ink {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background-color: var(--color-ink);
-  color: var(--color-paper);
+  background-color: var(--color-emerald);
+  color: #ffffff;
   font-family: var(--font-phonic);
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   border-radius: var(--radius-buttons);
   padding: 12px 20px;
-  border: 1px solid transparent;
-  transition: opacity 0.15s ease;
+  border: 1px solid rgba(197, 168, 105, 0.3);
+  transition: all 0.15s ease;
   line-height: 1;
   white-space: nowrap;
 }
 .btn-ink:hover {
-  opacity: 0.88;
+  background-color: var(--color-emerald-light);
+  border-color: var(--color-gold);
 }
 
 /* Outlined Ghost Button — Secondary action */
@@ -104,16 +111,18 @@ body {
   color: var(--color-ink);
   font-family: var(--font-phonic);
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   border-radius: var(--radius-buttons);
   padding: 12px 20px;
-  border: 1px solid var(--color-ink);
-  transition: background-color 0.15s ease;
+  border: 1px solid var(--color-ash);
+  transition: all 0.15s ease;
   line-height: 1;
   white-space: nowrap;
 }
 .btn-ghost:hover {
   background-color: var(--color-sand);
+  border-color: var(--color-gold);
+  color: var(--color-emerald);
 }
 
 /* Study Tag Badge / Status Tag */
@@ -121,11 +130,12 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
-  background-color: var(--color-chartreuse);
-  color: var(--color-ink);
+  background-color: var(--color-gold-subtle);
+  color: #7a5823;
+  border: 1px solid var(--color-gold-light);
   font-family: var(--font-phonic);
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   border-radius: var(--radius-badges);
   padding: 4px 8px;
   line-height: 1.2;

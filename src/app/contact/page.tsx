@@ -50,7 +50,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-chartreuse selection:text-ink">
+    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-gold selection:text-white">
       <Navbar onOpenSearch={() => setIsSearchOpen(true)} />
 
       {/* Hero Header — Warm Bone Canvas */}
@@ -65,7 +65,7 @@ export default function ContactPage() {
               Direct Correspondence &amp; Academic Secretariat
             </h1>
 
-            <div className="font-urdu text-[20px] text-fossil leading-relaxed">
+            <div className="font-urdu text-[20px] text-emerald leading-relaxed">
               علمی رہنمائی، فتویٰ طلبی، کانفرنسز اور ادارہ جاتی تعاون کے لیے رابطہ
             </div>
 
@@ -84,7 +84,7 @@ export default function ContactPage() {
             {/* Channel 1: Dar ul Ifta Daharki */}
             <div className="bg-[#fbfaf8] border border-ash/80 rounded-cards p-6 hover:border-ink hover:bg-white hover:shadow-maze-subtle transition-all space-y-4">
               <div className="w-10 h-10 rounded-inputs bg-sand flex items-center justify-center text-ink">
-                <Scroll className="w-5 h-5 text-olive" />
+                <Scroll className="w-5 h-5 text-emerald" />
               </div>
               <div>
                 <span className="badge-tag mb-2">OFFICIAL DECREES</span>
@@ -104,7 +104,7 @@ export default function ContactPage() {
             {/* Channel 2: Institute of Islamic Sciences */}
             <div className="bg-[#fbfaf8] border border-ash/80 rounded-cards p-6 hover:border-ink hover:bg-white hover:shadow-maze-subtle transition-all space-y-4">
               <div className="w-10 h-10 rounded-inputs bg-sand flex items-center justify-center text-ink">
-                <Building2 className="w-5 h-5 text-olive" />
+                <Building2 className="w-5 h-5 text-emerald" />
               </div>
               <div>
                 <span className="badge-tag mb-2">ACADEMIC &amp; SEMINARY</span>
@@ -124,7 +124,7 @@ export default function ContactPage() {
             {/* Channel 3: Academic Secretariat */}
             <div className="bg-[#fbfaf8] border border-ash/80 rounded-cards p-6 hover:border-ink hover:bg-white hover:shadow-maze-subtle transition-all space-y-4">
               <div className="w-10 h-10 rounded-inputs bg-sand flex items-center justify-center text-ink">
-                <Calendar className="w-5 h-5 text-olive" />
+                <Calendar className="w-5 h-5 text-emerald" />
               </div>
               <div>
                 <span className="badge-tag mb-2">SPEAKING &amp; RESEARCH</span>
@@ -328,7 +328,7 @@ export default function ContactPage() {
               {/* Response Protocol Box */}
               <div className="bg-white rounded-largecards border border-ash p-6 shadow-maze-subtle space-y-4">
                 <div className="flex items-center gap-2 text-ink font-serif text-[17px] font-light">
-                  <Clock className="w-4 h-4 text-olive" />
+                  <Clock className="w-4 h-4 text-emerald" />
                   <span>Turnaround Protocols &amp; Schedule</span>
                 </div>
 
@@ -351,8 +351,8 @@ export default function ContactPage() {
               </div>
 
               {/* Privacy & Confidentiality Guarantee */}
-              <div className="bg-[#dbf570] rounded-cards p-6 border border-ash text-ink space-y-2">
-                <div className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-wider font-semibold">
+              <div className="bg-[#F7F3E8] rounded-cards p-6 border border-[#DFCCA0] text-ink space-y-2">
+                <div className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-wider font-semibold text-emerald">
                   <AlertCircle className="w-4 h-4" />
                   <span>Confidentiality Guarantee (کتمان السر)</span>
                 </div>

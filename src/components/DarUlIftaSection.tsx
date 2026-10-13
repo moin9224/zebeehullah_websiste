@@ -161,9 +161,9 @@ export default function DarUlIftaSection({
   return (
     <section id="dar-ul-ifta" className="py-24 bg-white border-b border-ash relative overflow-hidden">
       
-      {/* Pixel Globe Section Motif in Chartreuse (#dbf570) behind the section header */}
-      <div className="absolute top-12 left-1/2 -translate-x-1/2 w-[520px] h-[520px] rounded-full bg-chartreuse/25 pointer-events-none blur-2xl" />
-      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[460px] h-[460px] rounded-full pixel-globe-bg opacity-30 pointer-events-none" />
+      {/* Subtle Aura Motif behind the section header */}
+      <div className="absolute top-12 left-1/2 -translate-x-1/2 w-[520px] h-[520px] rounded-full bg-gold/15 pointer-events-none blur-3xl" />
+      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[460px] h-[460px] rounded-full pixel-globe-bg opacity-20 pointer-events-none" />
 
       <div className="relative max-w-page mx-auto px-4 sm:px-6 lg:px-8">
         
@@ -335,7 +335,7 @@ export default function DarUlIftaSection({
 
                     <button
                       onClick={() => setSelectedFatwa(fatwa)}
-                      className="inline-flex items-center gap-1.5 text-ink hover:underline decoration-olive underline-offset-4"
+                      className="inline-flex items-center gap-1.5 text-ink hover:text-emerald hover:underline decoration-gold underline-offset-4 transition-colors"
                     >
                       <span>Read Full Ruling</span>
                       <span className="text-xs group-hover:translate-x-0.5 transition-transform">→</span>
@@ -372,7 +372,7 @@ export default function DarUlIftaSection({
 
             {submittedTicket ? (
               <div className="p-6 rounded-inputs bg-sand/50 border border-ash text-center space-y-3">
-                <CheckCircle2 className="w-10 h-10 text-olive mx-auto" />
+                <CheckCircle2 className="w-10 h-10 text-emerald mx-auto" />
                 <h4 className="font-serif text-[20px] font-light text-ink">Istifta Successfully Registered</h4>
                 <div className="p-3 bg-paper rounded-inputs border border-ash inline-block font-mono text-[14px] text-ink font-medium">
                   Reference ID: {submittedTicket.id}
@@ -479,7 +479,7 @@ export default function DarUlIftaSection({
                     type="submit"
                     className="btn-ink w-full py-3.5 text-[15px] justify-center"
                   >
-                    <Send className="w-4 h-4 text-chartreuse" />
+                    <Send className="w-4 h-4 text-gold-light" />
                     <span>Submit Question / فتویٰ ارسال کریں</span>
                   </button>
                 </div>

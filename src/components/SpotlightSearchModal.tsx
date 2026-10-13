@@ -137,7 +137,7 @@ export default function SpotlightSearchModal({
               </div>
               <h4 className="text-[17px] font-light text-ink">Global Scholarly Spotlight</h4>
               <p className="text-[13px] text-fossil max-w-sm mx-auto">
-                Type any keyword such as <span className="text-ink underline decoration-olive">&ldquo;Cryptocurrency&rdquo;</span>, <span className="text-ink underline decoration-olive">&ldquo;Murabaha&rdquo;</span>, or <span className="text-ink underline decoration-olive">&ldquo;5E Pedagogy&rdquo;</span>.
+                Type any keyword such as <span className="text-ink underline decoration-gold">&ldquo;Cryptocurrency&rdquo;</span>, <span className="text-ink underline decoration-gold">&ldquo;Murabaha&rdquo;</span>, or <span className="text-ink underline decoration-gold">&ldquo;5E Pedagogy&rdquo;</span>.
               </p>
               <div className="pt-2 flex flex-wrap justify-center gap-2">
                 {["Cryptocurrency", "Inheritance IP", "5E Model", "Murabaha", "Chicago Manual"].map((tag) => (

@@ -159,7 +159,7 @@ export default function BooksSection({
                     onClick={() => handleDownloadPdf(book)}
                     className="btn-ink text-[13px] py-2 px-3 justify-center"
                   >
-                    <Download className="w-3.5 h-3.5 text-chartreuse" />
+                    <Download className="w-3.5 h-3.5 text-gold-light" />
                     <span>Download PDF</span>
                   </button>
                 </div>
@@ -167,7 +167,7 @@ export default function BooksSection({
                 <div className="text-center pt-1">
                   <button
                     onClick={() => setSelectedBookForOrder(book)}
-                    className="font-serif text-[13px] text-fossil hover:text-ink hover:underline decoration-olive underline-offset-4 transition-colors"
+                    className="font-serif text-[13px] text-fossil hover:text-emerald hover:underline decoration-gold underline-offset-4 transition-colors"
                   >
                     Request Hard Copy Dispatch →
                   </button>
@@ -181,8 +181,8 @@ export default function BooksSection({
 
       {/* Toast Notification */}
       {toastMessage && (
-        <div className="fixed bottom-6 right-6 z-50 p-4 rounded-inputs bg-ink text-paper text-[13px] font-serif shadow-maze-subtle flex items-center gap-2 animate-fadeIn">
-          <CheckCircle2 className="w-4 h-4 text-chartreuse" />
+        <div className="fixed bottom-6 right-6 z-50 p-4 rounded-inputs bg-[#0F382A] text-white text-[13px] font-serif shadow-lg border border-gold/40 flex items-center gap-2 animate-fadeIn">
+          <CheckCircle2 className="w-4 h-4 text-gold-light" />
           <span>{toastMessage}</span>
         </div>
       )}
@@ -236,7 +236,7 @@ export default function BooksSection({
                   onClick={() => handleDownloadPdf(selectedBookForExcerpt)}
                   className="btn-ink text-[14px] py-2 px-4"
                 >
-                  <Download className="w-3.5 h-3.5 text-chartreuse" />
+                  <Download className="w-3.5 h-3.5 text-gold-light" />
                   <span>Download Full Volume (PDF)</span>
                 </button>
               </div>
@@ -272,7 +272,7 @@ export default function BooksSection({
 
               {orderSubmitted ? (
                 <div className="p-5 rounded-inputs bg-sand/60 text-center space-y-2 border border-ash">
-                  <CheckCircle2 className="w-8 h-8 text-olive mx-auto" />
+                  <CheckCircle2 className="w-8 h-8 text-emerald mx-auto" />
                   <div className="font-serif text-[16px] text-ink">Dispatch Order Received</div>
                   <p className="font-serif text-[13px] text-fossil">
                     Our academic secretariat will verify stock and contact your WhatsApp.

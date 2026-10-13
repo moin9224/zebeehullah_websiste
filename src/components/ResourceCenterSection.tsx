@@ -154,7 +154,7 @@ export default function ResourceCenterSection() {
                           onClick={() => handleDownload(item)}
                           className="btn-ink text-[12px] py-1.5 px-3"
                         >
-                          <Download className="w-3.5 h-3.5 text-chartreuse" />
+                          <Download className="w-3.5 h-3.5 text-gold-light" />
                           <span>Download</span>
                         </button>
                       </div>
@@ -170,8 +170,8 @@ export default function ResourceCenterSection() {
 
       {/* Download Toast Notification */}
       {downloadToast && (
-        <div className="fixed bottom-6 right-6 z-50 p-4 rounded-inputs bg-ink text-paper text-[13px] font-serif shadow-maze-subtle flex items-center gap-2 animate-fadeIn">
-          <CheckCircle2 className="w-4 h-4 text-chartreuse" />
+        <div className="fixed bottom-6 right-6 z-50 p-4 rounded-inputs bg-[#0F382A] text-white text-[13px] font-serif shadow-lg border border-gold/40 flex items-center gap-2 animate-fadeIn">
+          <CheckCircle2 className="w-4 h-4 text-gold-light" />
           <span>{downloadToast}</span>
         </div>
       )}
@@ -213,7 +213,7 @@ export default function ResourceCenterSection() {
                   }}
                   className="btn-ink text-[13px] py-2 px-4"
                 >
-                  <Download className="w-3.5 h-3.5 text-chartreuse" />
+                  <Download className="w-3.5 h-3.5 text-gold-light" />
                   <span>Download Document Now</span>
                 </button>
               </div>

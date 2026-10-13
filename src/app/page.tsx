@@ -41,7 +41,7 @@ export default function HomePage() {
   };
 
   return (
-    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-chartreuse selection:text-ink">
+    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-gold selection:text-white">
       {/* 1. Header & Navigation */}
       <Navbar 
         onOpenSearch={() => setIsSearchOpen(true)}

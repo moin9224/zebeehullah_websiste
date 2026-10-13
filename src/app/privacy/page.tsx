@@ -11,7 +11,7 @@ export default function PrivacyPolicyPage() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-chartreuse selection:text-ink">
+    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-gold selection:text-white">
       <Navbar onOpenSearch={() => setIsSearchOpen(true)} />
 
       {/* Hero Header — Warm Bone Canvas */}
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-inputs bg-sand flex items-center justify-center text-ink flex-shrink-0">
-                <Lock className="w-4 h-4 text-olive" />
+                <Lock className="w-4 h-4 text-emerald" />
               </div>
               <div className="text-[13px] font-serif">
                 <span className="font-medium text-ink block">Zero Data Commercialization</span>
@@ -53,7 +53,7 @@ export default function PrivacyPolicyPage() {
 
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-inputs bg-sand flex items-center justify-center text-ink flex-shrink-0">
-                <EyeOff className="w-4 h-4 text-olive" />
+                <EyeOff className="w-4 h-4 text-emerald" />
               </div>
               <div className="text-[13px] font-serif">
                 <span className="font-medium text-ink block">Absolute Case Anonymization</span>
@@ -63,7 +63,7 @@ export default function PrivacyPolicyPage() {
 
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-inputs bg-sand flex items-center justify-center text-ink flex-shrink-0">
-                <ShieldCheck className="w-4 h-4 text-olive" />
+                <ShieldCheck className="w-4 h-4 text-emerald" />
               </div>
               <div className="text-[13px] font-serif">
                 <span className="font-medium text-ink block">Shariah Fiduciary Duty</span>
@@ -135,7 +135,7 @@ export default function PrivacyPolicyPage() {
                   "Proprietary corporate contract figures and identifiable family secrets are generalized to abstract legal hypotheticals.",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-2.5 text-[14px]">
-                    <CheckCircle className="w-4 h-4 text-olive flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-4 h-4 text-emerald flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </div>
                 ))}
@@ -178,8 +178,8 @@ export default function PrivacyPolicyPage() {
           </div>
 
           {/* Contact Secretariat for Privacy Queries */}
-          <div className="p-6 rounded-cards bg-[#dbf570] border border-ash text-ink space-y-2">
-            <h3 className="font-serif text-[18px] font-light">
+          <div className="p-6 rounded-cards bg-[#F7F3E8] border border-[#DFCCA0] text-ink space-y-2">
+            <h3 className="font-serif text-[18px] font-light text-emerald">
               Questions Regarding This Privacy Charter?
             </h3>
             <p className="text-[13px] text-ink/80 leading-relaxed">

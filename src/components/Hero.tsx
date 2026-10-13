@@ -36,7 +36,7 @@ export default function Hero({ onOpenSearch }: HeroProps) {
             {/* Phonic 90px / weight 300 headline in Ink with –6.3px tracking, line-height 1.0 */}
             <h1 className="font-serif text-[44px] sm:text-[68px] lg:text-[80px] xl:text-[90px] font-light text-ink leading-[1.0] tracking-[-3px] sm:tracking-[-6.3px]">
               Bridging Classical Heritage with{" "}
-              <span className="underline decoration-olive underline-offset-8 decoration-2">
+              <span className="underline decoration-gold underline-offset-8 decoration-2">
                 Contemporary Thought
               </span>
             </h1>
@@ -57,7 +57,7 @@ export default function Hero({ onOpenSearch }: HeroProps) {
                 href="#dar-ul-ifta"
                 className="btn-ink text-[15px] group"
               >
-                <Scroll className="w-4 h-4 text-chartreuse" />
+                <Scroll className="w-4 h-4 text-gold-light" />
                 <span>Ask Fatwa / فتویٰ پوچھیں</span>
               </a>
 
@@ -90,13 +90,13 @@ export default function Hero({ onOpenSearch }: HeroProps) {
                 <span className="font-mono text-ink text-[11px]">VOL. XXIV — 2026</span>
               </div>
 
-              {/* Chartreuse (#dbf570) hero image block with 8px top radius, 16px internal padding, 22px Phonic label */}
-              <div className="bg-chartreuse rounded-inputs p-4 text-ink mb-4">
+              {/* Royal Emerald & Gold hero image block */}
+              <div className="bg-gradient-to-br from-[#0F382A] to-[#164E3D] rounded-inputs p-4 text-white mb-4 border border-gold/40 shadow-sm">
                 <div className="flex items-center justify-between">
-                  <span className="text-[11px] uppercase tracking-wider font-mono text-ink/80">Juristic Monograph</span>
-                  <span className="text-[11px] font-medium bg-ink text-paper px-2 py-0.5 rounded-[4px]">Peer Reviewed</span>
+                  <span className="text-[11px] uppercase tracking-wider font-mono text-gold-light">Juristic Monograph</span>
+                  <span className="text-[11px] font-medium bg-gold text-[#07120E] px-2 py-0.5 rounded-[4px]">Peer Reviewed</span>
                 </div>
-                <h3 className="font-serif text-[22px] font-light text-ink mt-2 leading-[1.15] tracking-[-0.66px]">
+                <h3 className="font-serif text-[22px] font-light text-white mt-2 leading-[1.15] tracking-[-0.66px]">
                   Islamic Economics & Digital Asset Liquidity
                 </h3>
               </div>
@@ -113,7 +113,7 @@ export default function Hero({ onOpenSearch }: HeroProps) {
                 </div>
                 <div className="text-right">
                   <div className="text-[11px] text-fossil">Seminary Status</div>
-                  <div className="font-serif text-[13px] text-olive font-medium">Accredited</div>
+                  <div className="font-serif text-[13px] text-emerald font-medium">Accredited</div>
                 </div>
               </div>
             </div>
@@ -121,13 +121,13 @@ export default function Hero({ onOpenSearch }: HeroProps) {
             {/* Unmoderated Study Card / Juristic Engine Card — Paper background, 12px radius */}
             <div className="card-paper p-5 space-y-3 shadow-maze-subtle">
               <div className="flex items-center justify-between">
-                {/* Chartreuse tag pill at top-left with Phonic 12px / 400 Ink text */}
+                {/* Antique Gold tag pill at top-left */}
                 <span className="badge-tag">
                   Verified Case Study • Dar ul Ifta Daharki
                 </span>
-                <div className="flex items-center gap-1 text-chartreuse">
+                <div className="flex items-center gap-1 text-gold">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-3.5 h-3.5 fill-chartreuse text-chartreuse" />
+                    <Star key={i} className="w-3.5 h-3.5 fill-gold text-gold" />
                   ))}
                 </div>
               </div>

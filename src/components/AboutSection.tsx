@@ -44,7 +44,7 @@ export default function AboutSection() {
         "Deep, uninterrupted engagement with the Holy Qur'an, prophetic Sunnah, classical legal canons, and authoritative Islamic intellectual heritage spanning 1,400 years. Preserving methodological fidelity to the Usul al-Fiqh frameworks formulated by the classical Aimmah.",
       detailedText:
         "Ensuring every juristic derivation remains methodologically tethered to the canonical works of Abu Hanifah, al-Bazdawi, al-Sarakhsi, and Ibn Abidin, resisting rootless modernism.",
-      accentBg: "bg-[#eae6e1]",
+      accentBg: "bg-[#EFECE4] border border-[#D8D2C4]",
       cardBadge: "✦ CLASSICAL SANAD & IJAZAH",
       cardTitle: "Canonical Usul al-Fiqh Derivation & Manuscript Hermeneutics",
       cardMaxim: "«الأَصْلُ فِي الأَشْيَاءِ الإِبَاحَةُ حَتَّى يَدُلَّ الدَّلِيلُ عَلَى التَّحْرِيمِ»",
@@ -60,7 +60,7 @@ export default function AboutSection() {
         "Methodological analysis of contemporary legal shifts, statutory corporate structures, algorithmic financial systems, and modern pedagogical reforms. Bridging theoretical doctrine with verified empirical reality.",
       detailedText:
         "Employing the classical juristic science of Tahqiq al-Manat (investigation of factual premises) so that Shariah rulings accurately address real-world business contracts, digital assets, and institutional dilemmas.",
-      accentBg: "bg-[#dbf570]", // Chartreuse accent matching Image 2
+      accentBg: "bg-[#F7F3E8] border border-[#DFCCA0]", // Warm Antique Gold Tint
       cardBadge: "✦ TAHQIQ AL-MANAT",
       cardTitle: "Contemporary Financial Screening & Corporate Shariah Compliance",
       cardMaxim: "«الْفَتْوَى تَتَغَيَّرُ بِتَغَيُّرِ الزَّمَانِ وَالْمَكَانِ وَالأَحْوَالِ»",
@@ -76,7 +76,7 @@ export default function AboutSection() {
         "Presenting Islamic answers and juristic guidance (Ifta) to contemporary queries with academic rigor, pedagogical clarity, intellectual confidence, and contextual relevance. Transcending defensive apologetics to offer constructive institutional solutions.",
       detailedText:
         "Integrating classical seminary acumen with peer-reviewed university research (PhD, MPhil) to build a robust, respectable discourse across universities and international conferences.",
-      accentBg: "bg-[#b8a3ff]", // Lavender wash
+      accentBg: "bg-[#EBF4F0] border border-[#D2E2DA]", // Soft Emerald / Sage Mist
       cardBadge: "✦ ACADEMIC TAFHEEM",
       cardTitle: "Instructional Reform, Peer-Reviewed Papers & Public Lectures",
       cardMaxim: "«خَاطِبُوا النَّاسَ عَلَى قَدْرِ عُقُولِهِمْ»",

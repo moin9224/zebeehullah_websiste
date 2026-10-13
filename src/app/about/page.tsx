@@ -27,7 +27,7 @@ export default function AboutPage() {
   const [activeTab, setActiveTab] = useState<"classical" | "university">("classical");
 
   return (
-    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-chartreuse selection:text-ink">
+    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-gold selection:text-white">
       <Navbar onOpenSearch={() => setIsSearchOpen(true)} />
 
       {/* Hero Header — Warm Bone Canvas */}
@@ -44,7 +44,7 @@ export default function AboutPage() {
               Mufti Zabeehullah Leghari
             </h1>
 
-            <div className="font-urdu text-[20px] sm:text-[24px] text-olive leading-relaxed">
+            <div className="font-urdu text-[20px] sm:text-[24px] text-emerald leading-relaxed">
               مفتی ذبیح اللہ لغاری — فقیہ، محقق، ناظم دار الافتاء اور ماہرِ تعلیم
             </div>
 
@@ -174,7 +174,7 @@ export default function AboutPage() {
                         key={idx}
                         className="p-3.5 rounded-inputs bg-[#fbfaf8] border border-ash/70 flex items-start gap-3"
                       >
-                        <CheckCircle2 className="w-4 h-4 text-olive flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-4 h-4 text-emerald flex-shrink-0 mt-0.5" />
                         <div>
                           <div className="font-serif text-[15px] font-medium text-ink leading-snug">
                             {cred.degree}
@@ -189,13 +189,13 @@ export default function AboutPage() {
 
                 <div className="pt-2 border-t border-sand text-[12px] font-mono text-fossil flex items-center justify-between">
                   <span>Authenticity Verified</span>
-                  <span className="text-olive">Dar ul Ifta Daharki</span>
+                  <span className="text-emerald">Dar ul Ifta Daharki</span>
                 </div>
               </div>
 
               {/* Research Focus Box */}
-              <div className="bg-[#dbf570] rounded-cards p-6 border border-ash text-ink space-y-2">
-                <div className="text-[11px] font-mono uppercase tracking-wider font-semibold">
+              <div className="bg-[#F7F3E8] rounded-cards p-6 border border-[#DFCCA0] text-ink space-y-2">
+                <div className="text-[11px] font-mono uppercase tracking-wider font-semibold text-emerald">
                   Core Research Specialization
                 </div>
                 <div className="font-serif text-[18px] font-light leading-snug">
@@ -251,7 +251,7 @@ export default function AboutPage() {
                   <ul className="space-y-2 pt-2 border-t border-sand text-[13px] font-serif text-fossil">
                     {pillar.points.map((pt, pIdx) => (
                       <li key={pIdx} className="flex items-start gap-2">
-                        <span className="text-olive font-bold">•</span>
+                        <span className="text-emerald font-bold">•</span>
                         <span>{pt}</span>
                       </li>
                     ))}
@@ -261,7 +261,7 @@ export default function AboutPage() {
                 <div className="pt-4 border-t border-sand">
                   <Link 
                     href="/contact"
-                    className="text-[13px] font-serif text-ink hover:underline decoration-olive underline-offset-4 flex items-center gap-1.5"
+                    className="text-[13px] font-serif text-ink hover:text-emerald hover:underline decoration-gold underline-offset-4 flex items-center gap-1.5 transition-colors"
                   >
                     <span>Consult on this framework</span>
                     <span className="text-xs">→</span>
@@ -273,10 +273,10 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* CTA Anchor — Soft Lavender Wash */}
-      <section className="py-16 bg-[#f3effb] border-b border-[#dfd5f2]">
+      {/* CTA Anchor — Soft Sage Wash */}
+      <section className="py-16 bg-[#EBF4F0] border-b border-[#D2E2DA]">
         <div className="max-w-page mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <span className="badge-tag bg-white text-ink border border-[#dfd5f2]">
+          <span className="badge-tag bg-white text-ink border border-[#D2E2DA]">
             SCHOLARLY INQUIRY
           </span>
           <h2 className="font-serif text-[30px] sm:text-[40px] font-light text-ink tracking-[-1.5px] max-w-2xl mx-auto leading-tight">

@@ -73,13 +73,13 @@ export default function MediaLecturesSection() {
   };
 
   return (
-    <section id="media" className="py-24 bg-[#141518] text-[#f5f4f0] border-b border-[#232428] relative">
+    <section id="media" className="py-24 bg-[#07120E] text-[#FAF8F5] border-b border-[#0F382A] relative">
       <div className="max-w-page mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="max-w-3xl mb-14 space-y-4">
           <div className="inline-flex items-center gap-2">
-            <span className="badge-tag bg-chartreuse text-ink font-medium">
+            <span className="inline-flex items-center gap-1.5 bg-gold/15 text-gold-light border border-gold/30 font-serif text-[12px] px-3 py-1 rounded-[4px] font-medium">
               04 / AUDIOVISUAL & LECTURES
             </span>
           </div>
@@ -88,11 +88,11 @@ export default function MediaLecturesSection() {
             Scholarly video explainers, university keynotes &amp; intellectual podcasts
           </h2>
 
-          <div className="font-urdu text-[17px] text-[#dbf570] leading-relaxed">
+          <div className="font-urdu text-[17px] text-gold-light leading-relaxed">
             خطابات، علمی لیکچرز، پوڈکاسٹس اور بصری تفہیمی ویڈیوز
           </div>
 
-          <p className="font-serif text-[17px] font-normal text-[#9e9b94] leading-[1.45] tracking-[-0.34px]">
+          <p className="font-serif text-[17px] font-normal text-[#A2ADA7] leading-[1.45] tracking-[-0.34px]">
             Short engaging visual breakdowns of complex Islamic, economic, and legal concepts alongside full-length university lectures and Friday sermons.
           </p>
         </div>
@@ -105,8 +105,8 @@ export default function MediaLecturesSection() {
               onClick={() => setActiveTab(tab.id)}
               className={`font-serif text-[14px] sm:text-[15px] transition-colors ${
                 activeTab === tab.id
-                  ? "bg-chartreuse text-ink font-medium px-4 py-2 rounded-inputs"
-                  : "px-4 py-2 rounded-inputs text-[#9e9b94] hover:text-white bg-[#1c1d22] border border-[#2a2c33]"
+                  ? "bg-gold text-[#07120E] font-medium px-4 py-2 rounded-inputs shadow-sm"
+                  : "px-4 py-2 rounded-inputs text-[#A2ADA7] hover:text-white bg-[#0C1A14] border border-[#164E3D]"
               }`}
             >
               {tab.label}
@@ -121,7 +121,7 @@ export default function MediaLecturesSection() {
             return (
               <div
                 key={item.id}
-                className="bg-[#1b1d22] border border-[#2c2e36] p-5 flex flex-col justify-between hover:border-chartreuse/70 transition-all group rounded-cards"
+                className="bg-[#0C1A14] border border-[#164E3D] p-5 flex flex-col justify-between hover:border-gold/80 transition-all group rounded-cards shadow-sm"
               >
                 <div className="space-y-3">
                   
@@ -134,25 +134,25 @@ export default function MediaLecturesSection() {
                         setSelectedVideo(item);
                       }
                     }}
-                    className="relative aspect-video rounded-inputs bg-[#242730] overflow-hidden cursor-pointer flex items-center justify-center border border-[#343744] group-hover:opacity-95 transition-opacity"
+                    className="relative aspect-video rounded-inputs bg-[#07120E] overflow-hidden cursor-pointer flex items-center justify-center border border-[#164E3D] group-hover:opacity-95 transition-opacity"
                   >
-                    {/* Centered Play Button Circle in Chartreuse */}
-                    <div className="w-12 h-12 rounded-full bg-chartreuse text-ink flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+                    {/* Centered Play Button Circle in Gold */}
+                    <div className="w-12 h-12 rounded-full bg-gold text-[#07120E] flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
                       {isPodcast ? (
-                        <Headphones className="w-5 h-5 text-ink" />
+                        <Headphones className="w-5 h-5 text-[#07120E]" />
                       ) : (
-                        <Play className="w-5 h-5 fill-ink text-ink ml-0.5" />
+                        <Play className="w-5 h-5 fill-[#07120E] text-[#07120E] ml-0.5" />
                       )}
                     </div>
 
                     {/* Duration badge */}
-                    <span className="absolute bottom-2 right-2 px-2 py-0.5 rounded-[4px] bg-black/80 text-white font-mono text-[11px]">
+                    <span className="absolute bottom-2 right-2 px-2 py-0.5 rounded-[4px] bg-black/85 text-white font-mono text-[11px] border border-white/10">
                       {item.duration}
                     </span>
 
                     {/* Top Type Tag */}
                     <div className="absolute top-2 left-2">
-                      <span className="bg-black/70 backdrop-blur-sm text-chartreuse border border-chartreuse/30 text-[11px] font-mono px-2 py-0.5 rounded-[4px]">
+                      <span className="bg-black/80 backdrop-blur-sm text-gold-light border border-gold/30 text-[11px] font-mono px-2 py-0.5 rounded-[4px]">
                         {item.typeLabel}
                       </span>
                     </div>
@@ -160,21 +160,21 @@ export default function MediaLecturesSection() {
 
                   {/* Video Title & Captions */}
                   <div>
-                    <h3 className="font-serif text-[18px] font-light text-white leading-snug tracking-[-0.34px] group-hover:text-chartreuse transition-colors">
+                    <h3 className="font-serif text-[18px] font-light text-white leading-snug tracking-[-0.34px] group-hover:text-gold-light transition-colors">
                       {item.title}
                     </h3>
-                    <p className="font-urdu text-[13px] text-[#9e9b94] mt-1 leading-relaxed">
+                    <p className="font-urdu text-[13px] text-gold-light/80 mt-1 leading-relaxed">
                       {item.titleUrdu}
                     </p>
                   </div>
 
-                  <p className="font-serif text-[13px] text-[#8a8882] leading-relaxed line-clamp-2">
+                  <p className="font-serif text-[13px] text-[#A2ADA7] leading-relaxed line-clamp-2">
                     {item.description}
                   </p>
                 </div>
 
                 {/* Bottom Caption Strip */}
-                <div className="pt-4 mt-4 border-t border-[#2c2e36] flex items-center justify-between text-[12px] font-serif text-[#8a8882]">
+                <div className="pt-4 mt-4 border-t border-[#164E3D] flex items-center justify-between text-[12px] font-serif text-[#A2ADA7]">
                   <span className="font-mono">{item.date}</span>
 
                   <button
@@ -182,7 +182,7 @@ export default function MediaLecturesSection() {
                       if (isPodcast) toggleAudio(item);
                       else setSelectedVideo(item);
                     }}
-                    className="font-serif text-chartreuse hover:underline underline-offset-4 flex items-center gap-1"
+                    className="font-serif text-gold-light hover:text-gold hover:underline underline-offset-4 flex items-center gap-1 transition-colors"
                   >
                     <span>{isPodcast ? "Listen Podcast" : "Watch Lecture"}</span>
                     <span className="text-xs">→</span>
@@ -197,15 +197,15 @@ export default function MediaLecturesSection() {
 
       {/* Floating Audio Podcast Player — Midnight Studio Bar */}
       <div className="max-w-page mx-auto px-4 sm:px-6 lg:px-8 mt-12">
-        <div className="bg-[#1b1d22] border border-[#2c2e36] rounded-cards p-5 flex flex-col md:flex-row items-center justify-between gap-4 shadow-xl">
+        <div className="bg-[#0C1A14] border border-[#164E3D] rounded-cards p-5 flex flex-col md:flex-row items-center justify-between gap-4 shadow-xl">
           <div className="flex items-center gap-3 w-full md:w-auto">
-            <div className="w-10 h-10 rounded-inputs bg-[#242730] flex items-center justify-center text-chartreuse flex-shrink-0 border border-[#343744]">
+            <div className="w-10 h-10 rounded-inputs bg-[#07120E] flex items-center justify-center text-gold flex-shrink-0 border border-gold/30">
               <Headphones className="w-5 h-5" />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="bg-chartreuse/20 text-chartreuse border border-chartreuse/30 text-[10px] font-mono px-1.5 py-0.5 rounded">PODCAST PLAYER</span>
-                <span className="text-[11px] font-mono text-[#8a8882]">Episode 04</span>
+                <span className="bg-gold/15 text-gold-light border border-gold/30 text-[10px] font-mono px-1.5 py-0.5 rounded">PODCAST PLAYER</span>
+                <span className="text-[11px] font-mono text-[#A2ADA7]">Episode 04</span>
               </div>
               <div className="font-serif text-[15px] font-normal text-white leading-snug">
                 {currentAudioTrack.title}
@@ -216,7 +216,7 @@ export default function MediaLecturesSection() {
           <div className="flex items-center gap-3 w-full md:w-auto justify-end">
             <button
               onClick={handlePrevTrack}
-              className="p-2 rounded-inputs text-[#8a8882] hover:text-white transition-colors"
+              className="p-2 rounded-inputs text-[#A2ADA7] hover:text-white transition-colors"
               title="Previous Track"
             >
               <SkipBack className="w-4 h-4" />
@@ -224,7 +224,7 @@ export default function MediaLecturesSection() {
 
             <button
               onClick={() => toggleAudio()}
-              className="bg-chartreuse text-ink font-medium text-[13px] py-2 px-4 rounded-inputs hover:bg-[#c9e45e] transition-colors flex items-center gap-1.5"
+              className="bg-gold text-[#07120E] font-medium text-[13px] py-2 px-4 rounded-inputs hover:bg-gold-light transition-colors flex items-center gap-1.5 shadow-sm"
             >
               {isPlayingAudio ? (
                 <>
@@ -233,7 +233,7 @@ export default function MediaLecturesSection() {
                 </>
               ) : (
                 <>
-                  <Play className="w-3.5 h-3.5 fill-ink" />
+                  <Play className="w-3.5 h-3.5 fill-[#07120E]" />
                   <span>Play Podcast</span>
                 </>
               )}
@@ -241,7 +241,7 @@ export default function MediaLecturesSection() {
 
             <button
               onClick={handleNextTrack}
-              className="p-2 rounded-inputs text-[#8a8882] hover:text-white transition-colors"
+              className="p-2 rounded-inputs text-[#A2ADA7] hover:text-white transition-colors"
               title="Next Track"
             >
               <SkipForward className="w-4 h-4" />
@@ -249,7 +249,7 @@ export default function MediaLecturesSection() {
 
             <button
               onClick={cycleSpeed}
-              className="px-2.5 py-1 rounded-inputs border border-[#343744] bg-[#242730] font-mono text-[11px] text-[#dbf570] hover:text-white"
+              className="px-2.5 py-1 rounded-inputs border border-gold/30 bg-[#07120E] font-mono text-[11px] text-gold-light hover:text-white"
             >
               {playbackSpeed}
             </button>

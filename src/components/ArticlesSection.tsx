@@ -55,7 +55,7 @@ export default function ArticlesSection({
   };
 
   return (
-    <section id="articles" className="py-24 bg-white border-b border-ash relative">
+    <section id="articles" className="py-24 bg-[#EBF4F0] border-b border-[#D2E2DA] relative">
       <div className="max-w-page mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -70,7 +70,7 @@ export default function ArticlesSection({
             Original academic papers, legal philosophy & pedagogical reform
           </h2>
 
-          <div className="font-urdu text-[17px] text-fossil leading-relaxed">
+          <div className="font-urdu text-[17px] text-emerald leading-relaxed">
             مقالات و مضامین — عصری، فقہی اور تعلیمی مباحث
           </div>
 
@@ -79,12 +79,12 @@ export default function ArticlesSection({
           </p>
         </div>
 
-        {/* Articles Grid — Flat Paper cards, 12px radius, hairline borders */}
+        {/* Articles Grid — Crisp White cards on Soft Sage Canvas */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {ARTICLES_DATA.map((article) => (
             <article
               key={article.id}
-              className="bg-[#fbfaf8] border border-ash/80 rounded-cards p-6 flex flex-col justify-between hover:border-ink hover:bg-white hover:shadow-maze-subtle transition-all group"
+              className="bg-white border border-[#D2E2DA] rounded-cards p-6 flex flex-col justify-between hover:border-gold hover:shadow-md transition-all group"
             >
               <div className="space-y-3">
                 <div className="flex items-center justify-between text-[12px] font-serif">
@@ -98,7 +98,7 @@ export default function ArticlesSection({
                 </div>
 
                 <div>
-                  <h3 className="font-serif text-[19px] font-light text-ink group-hover:text-olive transition-colors leading-snug tracking-[-0.34px]">
+                  <h3 className="font-serif text-[19px] font-light text-ink group-hover:text-emerald transition-colors leading-snug tracking-[-0.34px]">
                     {article.title}
                   </h3>
                   <p className="font-urdu text-[14px] text-fossil mt-1 leading-relaxed">

@@ -49,7 +49,7 @@ const MEGA_MENUS_CONFIG: Record<"platform" | "solutions" | "resources" | "servic
     description: "Authoritative juristic decree examining the premise of currency (Thamaniyyah) and financial speculation in decentralized blockchain protocols.",
     actionText: "Read Decree & Juristic Precedents",
     actionHref: "/#dar-ul-ifta",
-    accentBg: "bg-[#dbf570]",
+    accentBg: "bg-[#EBF4F0] border border-[#D2E2DA]",
     middleHeading: "SPECIALIZED IFTA DESKS",
     middleItems: [
       { label: "Commercial Fiqh & FinTech Contracts", badge: "FinTech", href: "/#dar-ul-ifta" },
@@ -73,7 +73,7 @@ const MEGA_MENUS_CONFIG: Record<"platform" | "solutions" | "resources" | "servic
     description: "An analytical study of classical Hanafi principles applied to modern statutory banking, digital currencies, and corporate debt instruments.",
     actionText: "Browse Chapters & Excerpts",
     actionHref: "/#books",
-    accentBg: "bg-[#eae6e1]",
+    accentBg: "bg-[#F7F3E8] border border-[#DFCCA0]",
     middleHeading: "TREATISES BY LEGAL DOMAIN",
     middleItems: [
       { label: "Islamic Jurisprudence & Usul al-Fiqh", badge: "Usul", href: "/#books" },
@@ -97,7 +97,7 @@ const MEGA_MENUS_CONFIG: Record<"platform" | "solutions" | "resources" | "servic
     description: "Directing higher scholarly curriculum integrating traditional Dars-e-Nizami seminary rigor with modern university research methodology and instructional design.",
     actionText: "Inspect Institutional Programs",
     actionHref: "/about",
-    accentBg: "bg-[#b8a3ff]",
+    accentBg: "bg-[#0F382A] text-white border border-gold/40",
     middleHeading: "ACADEMIC & CONSULTATIVE SERVICES",
     middleItems: [
       { label: "Shariah Board Corporate Compliance Audits", badge: "Corporate", href: "/contact" },
@@ -121,7 +121,7 @@ const MEGA_MENUS_CONFIG: Record<"platform" | "solutions" | "resources" | "servic
     description: "Standardized manual for Islamic studies researchers covering Chicago Manual of Style (CMS), APA 7th edition, and classical Arabic manuscript citation standards.",
     actionText: "Download Research Guide (PDF)",
     actionHref: "/#resources",
-    accentBg: "bg-[#dbf570]",
+    accentBg: "bg-[#FAF8F5] border border-[#D8D2C4]",
     middleHeading: "REPOSITORY DIRECTORIES",
     middleItems: [
       { label: "CMS & APA Citation Standard Manual", badge: "Writing", href: "/#resources" },
@@ -199,7 +199,7 @@ export default function Navbar({ onOpenSearch }: NavbarProps) {
         <div className="bg-black text-white h-[38px] px-4 sm:px-6 flex items-center justify-between text-[13px] sm:text-[14px] font-serif border-b border-black">
           <div className="w-6 hidden sm:block" />
           <div className="flex-1 text-center truncate px-2 font-light tracking-wide flex items-center justify-center gap-2">
-            <span className="inline-block w-2 h-2 rounded-full bg-chartreuse animate-pulse" />
+            <span className="inline-block w-2 h-2 rounded-full bg-gold animate-pulse" />
             <span>🌙 18 Rabi&apos; al-Awwal 1448 AH — Official Juristic Research Portal &amp; Dar ul Ifta Daharki</span>
           </div>
           <button 
@@ -222,7 +222,7 @@ export default function Navbar({ onOpenSearch }: NavbarProps) {
           
           {/* Logo Brand: Wordmark */}
           <Link href="/" className="flex items-center gap-2 group flex-shrink-0 whitespace-nowrap">
-            <div className="w-6 h-6 rounded-[5px] bg-ink text-paper flex items-center justify-center font-bold text-[11px] font-mono flex-shrink-0">
+            <div className="w-6 h-6 rounded-[5px] bg-[#0F382A] text-gold-light border border-gold/40 flex items-center justify-center font-bold text-[11px] font-mono flex-shrink-0">
               ZL
             </div>
             <span className="font-serif text-[18px] sm:text-[19px] font-light tracking-[-0.5px] text-ink whitespace-nowrap">
@@ -323,7 +323,7 @@ export default function Navbar({ onOpenSearch }: NavbarProps) {
             {/* 'Log in' text link */}
             <Link
               href="/#dar-ul-ifta"
-              className="h-8 px-2 font-serif text-[12.5px] text-ink hover:underline decoration-olive underline-offset-4 flex items-center flex-shrink-0 whitespace-nowrap"
+              className="h-8 px-2 font-serif text-[12.5px] text-ink hover:text-emerald hover:underline decoration-gold underline-offset-4 flex items-center flex-shrink-0 whitespace-nowrap transition-colors"
             >
               Log in
             </Link>
@@ -331,15 +331,15 @@ export default function Navbar({ onOpenSearch }: NavbarProps) {
             {/* 'Ask Fatwa' outlined ghost button */}
             <Link
               href="/#dar-ul-ifta"
-              className="h-8 px-3 rounded-inputs border border-ink text-ink hover:bg-sand transition-colors text-[12.5px] font-serif flex items-center justify-center flex-shrink-0 whitespace-nowrap"
+              className="h-8 px-3 rounded-inputs border border-[#0F382A] text-[#0F382A] hover:bg-[#EBF4F0] transition-colors text-[12.5px] font-serif flex items-center justify-center flex-shrink-0 whitespace-nowrap"
             >
               Ask Fatwa
             </Link>
 
-            {/* 'Academic Enquiry' filled dark button */}
+            {/* 'Academic Enquiry' filled emerald button */}
             <Link
               href="/contact"
-              className="h-8 px-3.5 rounded-inputs bg-ink text-paper hover:opacity-90 transition-opacity text-[12.5px] font-serif flex items-center justify-center flex-shrink-0 whitespace-nowrap"
+              className="h-8 px-3.5 rounded-inputs bg-[#0F382A] text-white hover:bg-[#164E3D] border border-gold/40 shadow-sm transition-colors text-[12.5px] font-serif flex items-center justify-center flex-shrink-0 whitespace-nowrap"
             >
               Academic Enquiry
             </Link>

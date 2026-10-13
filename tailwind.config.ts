@@ -10,22 +10,34 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bone: "#f5f4f0",
-        paper: "#ffffff",
-        ink: "#1c1c1c",
-        charcoal: "#000000",
-        fossil: "#706f6c",
-        pebble: "#9e9b94",
-        smoke: "#3c3c3c",
-        sand: "#eae6e1",
-        ash: "#d2cec6",
-        chartreuse: {
-          DEFAULT: "#dbf570",
-          light: "#e7faa0",
-          dark: "#c2dc50",
+        bone: "#FAF8F5",       // Warm Ivory Canvas
+        paper: "#ffffff",      // Pure White Paper
+        ink: "#121E19",        // Deep Scholar Obsidian (emerald undertone)
+        charcoal: "#07120E",   // True Deep Charcoal
+        fossil: "#5F6B65",     // Muted Sage Slate
+        pebble: "#8A948E",     // Light Muted Gray
+        smoke: "#2D3B34",      // Deep Forest Slate
+        sand: "#EFECE4",       // Warm Parchment Sand
+        ash: "#D8D2C4",        // Antique Hairline Border
+        emerald: {
+          deep: "#07120E",
+          DEFAULT: "#0F382A",  // Royal Islamic Emerald
+          light: "#164E3D",
+          soft: "#EBF4F0",     // Mint/Sage Mist
         },
-        olive: "#4b5b0a",
-        lavender: "#b8a3ff",
+        gold: {
+          DEFAULT: "#C5A869",  // Antique Champagne Gold
+          light: "#DFCCA0",
+          dark: "#96783B",
+          subtle: "#F7F3E8",   // Warm Gold Tint
+        },
+        chartreuse: {
+          DEFAULT: "#C5A869",  // Mapped to Gold for backward-compatibility
+          light: "#DFCCA0",
+          dark: "#96783B",
+        },
+        olive: "#0F382A",
+        lavender: "#EBF4F0",   // Mapped to Soft Emerald
       },
       fontFamily: {
         serif: ["var(--font-phonic)", "Newsreader", "Playfair Display", "Georgia", "serif"],

@@ -40,7 +40,7 @@ export default function EventsSection() {
   const pastEvents = SPEAKING_EVENTS.filter((e) => e.status === "archived");
 
   return (
-    <section id="events" className="py-24 bg-[#f3effb] border-b border-[#dfd5f2] relative">
+    <section id="events" className="py-24 bg-[#FAF8F5] border-b border-ash relative">
       <div className="max-w-page mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -55,7 +55,7 @@ export default function EventsSection() {
             Speaking Engagements, Keynotes & Methodology Masterclasses
           </h2>
 
-          <div className="font-urdu text-[17px] text-fossil leading-relaxed">
+          <div className="font-urdu text-[17px] text-emerald leading-relaxed">
             سمینارز، علمی کانفرنسز اور بین الاقوامی ورکشاپس
           </div>
 
@@ -64,7 +64,7 @@ export default function EventsSection() {
           </p>
         </div>
 
-        {/* Featured Workshop Card on Lavender section wash / Paper card */}
+        {/* Featured Workshop Card on Warm Ivory Canvas / Paper card */}
         {upcomingEvents.length > 0 && (
           <div className="mb-14">
             <div className="text-[12px] font-mono uppercase tracking-wider text-fossil mb-4">
@@ -74,7 +74,7 @@ export default function EventsSection() {
             {upcomingEvents.map((event) => (
               <div
                 key={event.id}
-                className="card-paper-lg p-7 sm:p-10 border border-[#dfd5f2] bg-white shadow-maze-subtle"
+                className="card-paper-lg p-7 sm:p-10 border border-ash bg-white shadow-maze-subtle"
               >
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                   

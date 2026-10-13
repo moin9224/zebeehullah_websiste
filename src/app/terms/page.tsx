@@ -19,7 +19,7 @@ export default function TermsPage() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-chartreuse selection:text-ink">
+    <main className="min-h-screen bg-bone text-ink flex flex-col font-serif selection:bg-gold selection:text-white">
       <Navbar onOpenSearch={() => setIsSearchOpen(true)} />
 
       {/* Hero Header — Warm Bone Canvas */}
@@ -51,7 +51,7 @@ export default function TermsPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-inputs bg-sand flex items-center justify-center text-ink flex-shrink-0">
-                <Scale className="w-4 h-4 text-olive" />
+                <Scale className="w-4 h-4 text-emerald" />
               </div>
               <div className="text-[13px] font-serif">
                 <span className="font-medium text-ink block">Advisory Shariah Guidance</span>
@@ -61,7 +61,7 @@ export default function TermsPage() {
 
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-inputs bg-sand flex items-center justify-center text-ink flex-shrink-0">
-                <BookOpen className="w-4 h-4 text-olive" />
+                <BookOpen className="w-4 h-4 text-emerald" />
               </div>
               <div className="text-[13px] font-serif">
                 <span className="font-medium text-ink block">Educational Attribution</span>
@@ -71,7 +71,7 @@ export default function TermsPage() {
 
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-inputs bg-sand flex items-center justify-center text-ink flex-shrink-0">
-                <ShieldAlert className="w-4 h-4 text-olive" />
+                <ShieldAlert className="w-4 h-4 text-emerald" />
               </div>
               <div className="text-[13px] font-serif">
                 <span className="font-medium text-ink block">No Civil Enforcement</span>
@@ -177,9 +177,9 @@ export default function TermsPage() {
           </div>
 
           {/* Quick Action Box */}
-          <div className="p-6 rounded-cards bg-[#dbf570] border border-ash text-ink flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="p-6 rounded-cards bg-[#F7F3E8] border border-[#DFCCA0] text-ink flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <div className="font-serif text-[17px] font-medium">Have Questions Regarding Our Terms?</div>
+              <div className="font-serif text-[17px] font-medium text-emerald">Have Questions Regarding Our Terms?</div>
               <div className="text-[13px] text-ink/80 mt-0.5">Contact the Dar ul Ifta Daharki secretariat for formal clarifications.</div>
             </div>
             <Link href="/contact" className="btn-ink text-[12px] py-1.5 px-4 flex-shrink-0">
