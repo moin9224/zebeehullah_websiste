@@ -95,3 +95,16 @@ npm run dev
 # 3. Open in browser
 http://localhost:3000
 ```
+
+---
+
+## ☁️ Deployment on Vercel
+
+This repository is pre-configured for one-click deployment on [Vercel](https://vercel.com):
+
+1. Go to [Vercel](https://vercel.com) and log in with your GitHub account.
+2. Click **"Add New..."** → **"Project"**.
+3. Select your GitHub repository: `moin9224/zebeehullah_websiste`.
+4. Vercel automatically detects Next.js using the included `vercel.json`.
+5. Click **"Deploy"**. Your website will be live in ~1 minute with automatic SSL and global CDN!
+
